@@ -1,0 +1,53 @@
+//К СТРАНИЦЕ FORM
+.page-header {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Open Sans";
+
+    background-color: #283645;
+    background-image: url(/PINKprojet/img/back-mobile-glavn1x.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    //background-size: cover;
+    
+    background-color: $bg-darkblue;
+}
+
+
+@media (min-width: $tablet-width) {
+    .page-header {
+       background:  url(/PINKprojet/img/back-tablet@1x.jpg) center 1px/cover no-repeat;
+    }
+
+
+    
+}
+
+@media (min-width: $desktop-width) {
+
+    .page-header {
+
+        height: 853px;
+
+       // background: url(/PINKprojet/img/iphone-6-desktop.png) no-repeat,
+       // url(/PINKprojet/img/back-desktop.jpg.jpg) no-repeat;
+        
+        //background-position: bottom right;
+       // background-size: 660px 545px;
+       // background-size: cover;
+      // }
+
+    }
+
+    .main-nav__wrapper {
+        display: flex;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+   
+}

@@ -1,0 +1,87 @@
+@font-face {
+    font-weight: normal;
+    font-family: "Open Sans";
+    font-style: normal;
+    src: url(/PINKprojet/fonts/ofont.ru_Open_Sans.woff2) format(woff2),
+    url(/PINKprojet/fonts/ofont.ru_Open_Sans.woff) format(woff);
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "Open Sans";
+    font-style: normal;
+    src: url(/PINKprojet/fonts/ofont.ru_Open_Sans_bold.woff2) format(woff2),
+    url(/PINKprojet/fonts/ofont.ru_Open_Sans_bold.woff) format(woff);
+}
+
+@font-face {
+    font-weight: light;
+    font-family: "Open Sans light";
+    font-style: normal;
+    src: url(/PINKprojet/fonts/Open-Sans-light.woff2) format(woff2),
+    url(/PINKprojet/fonts/Open-Sans-light.woff) format(woff);
+}
+
+@font-face {
+    font-weight: normal;
+    font-family: "Open Sans regular";
+    font-style: normal;
+    src: url(/PINKprojet/fonts/Open-Sans_regular.woff2) format(woff2),
+    url(/PINKprojet/fonts/Open-Sans_regular.woff) format(woff);
+}
+
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Open Sans","Arial","Helvetica","Garuda", sans-serif;
+    color: #ffffff;
+    font-style: normal;
+
+    
+}
+
+//img {
+  //  max-width: 100%;
+ //   height: auto;
+//}
+
+h2 {
+    margin: 0 auto;
+}
+  
+header a {
+    color: #ffffff;;
+}
+
+
+//.visually-hidden:not(:focus):not(:active) {
+   // position: absolute;
+
+   // width: 1px;
+   // height: 1px;
+   // margin: -1px;
+   // border: 0;
+   // padding: 0;
+
+   // white-space: nowrap;
+
+   // clip-path: inset(100%);
+   // clip: rect(0 0 0 0);
+   // overflow: hidden;
+//}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

@@ -1,0 +1,832 @@
+//////page-header--photo
+
+.page-header--photo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  background-image: url(/PINKprojet/img/back-mobile-glavn1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-color: #283645;
+}
+
+.photo__block {
+  min-height: 153px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-position: center 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo__text {
+  display: inline-block;
+  text-align: center;
+  padding-top: 19px;
+  padding-right: 38px;
+  padding-left: 48px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Open Sans light";
+}
+
+///////main: page__photo
+
+
+.page__photo-look {
+  width: 247px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+
+  color: #283645;
+}
+
+///section page__photo-user
+
+.user__photo-panorama {
+  margin: 0;
+}
+
+.panorama__wrapper {
+  margin: 0 auto;
+  margin-top: -7px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  width: 280px;
+}
+
+.panorama__text-user {
+  color: #283645;
+}
+
+.panorama__text-name {
+  display: inline-block;
+  font-weight: bold;
+
+  font-size: 14px;
+  //line-height: 30px;
+
+  margin-top: 25px;
+  margin-left: 18px;
+}
+
+.user__text-photo--info {
+  font-size: 14px;
+  line-height: 30px;
+
+  margin-left: 18px;
+  margin-right: 19px;
+}
+
+.panorama__text-time {
+  color:#b5b9be;
+  font-size: 14px;
+  //line-height: 30px;
+}
+
+.panorama__day {
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.panorama__day-wrapper {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d22856;
+  font-weight: 700;
+  font-size: 12px;
+  width: 101px;
+  height: 31px;
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photo__panorama {
+  width: 100%;
+}
+
+.user__text-like {
+  font-size: 12px;
+  color: #d22856;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  padding-left: 49px;
+  margin-top: 15px;
+  position: relative;
+  border: none;
+  padding-bottom: 26px;
+
+  &::before {
+    position: absolute;
+   content: '';
+   width: 13px;
+   height: 12px;
+   top: 2px;
+   left: 19px;
+   background-image: url(/PINKprojet/img/photo/icon-heart.svg);
+   background-repeat: no-repeat;
+  }
+}
+
+.user__text-like--panorama {
+  font-size: 12px;
+  color: #d22856;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  padding-left: 49px;
+  margin-top: 15px;
+  position: relative;
+  border: none;
+  padding-bottom: 26px;
+
+  &::before {
+    position: absolute;
+   content: '';
+   width: 13px;
+   height: 12px;
+   top: 2px;
+   left: 19px;
+   background-image: url(/PINKprojet/img/photo/icon-heart.svg);
+   background-repeat: no-repeat;
+  }
+}
+
+.user_text-bahcha-rock {
+  font-size: 12px;
+  color: #d22856;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  padding-left: 49px;
+  margin-top: 15px;
+  position: relative;
+  border: none;
+  padding-bottom: 26px;
+    
+  
+  &::before {
+   position: absolute;
+   content: '';
+   width: 13px;
+   height: 12px;
+   top: 2px;
+   left: 19px;
+   background-image: url(/PINKprojet/img/photo/icon-heart.svg);
+   background-repeat: no-repeat;
+    }
+}
+
+.user__photo-item {
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  color: #283645;
+
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+.user__text-name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.user__text-time {
+  color:#b5b9be;
+  font-size: 14px;
+}
+
+
+
+/////section  page__photo--loading
+
+
+.motivation__text {
+  color: #283645;
+  font-size: 14px;
+
+  text-align: center;
+  
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.loading__photo-setting {
+  background-color: #f2f2f2;
+}
+
+.photo__loading {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.edit__mobile-only {
+  
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 37px;
+
+  height: 53.3px;
+  width: 279px;
+  
+}
+
+.edit__icon {
+  fill: #b5b9be;
+  &:hover {
+    fill: #8d949b;
+  }
+}
+
+.edit__icon-active {
+  fill: #d22856;
+  &:hover {
+    opacity: 0.3;
+  }
+}
+
+.edit__item-range {
+  display: flex;
+
+  width: 240px;
+  margin: 0 auto;
+}
+
+.edit__item {
+  width: 240px;
+  -webkit-appearance: none;
+  height: 2px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.edit__mobile-hidden {
+  display: none;
+}
+
+.photo__setting-wrapper {
+  border-bottom: 1px solid #dddfe0;
+}
+
+.edit__button {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.photo__button-send {
+  width: 280px;
+
+  background-color: transparent;
+  border: 3px solid #d22856;
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: bold;
+  color: #d22856;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 87px;
+  padding-left: 87px;
+
+  margin: 0 auto;
+  margin-top: 37px;
+  margin-bottom: 12px;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #d22856;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.photo__button-cancel {
+  width: 280px;
+
+  background-color: transparent;
+  border: 3px solid #e4e5e6;
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: bold;
+  color: #dfe1e2;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 87px;
+  padding-left: 87px;
+
+  margin: 0 auto;
+  margin-bottom: 41px;
+
+  &:hover {
+    color: #bdc0c5;
+    
+  }
+
+  &:active {
+    color: #c7cbcf;
+    background-color: #b5b9be;
+    border: 3px solid #b5b9be;
+  }
+}
+
+////footer
+/// 
+.footer__container-photo {
+  margin-top: 40px;
+}
+
+
+
+
+
+@media (min-width: $tablet-width) {
+  ///header   page-header--photo
+  /// 
+  /// 
+  .page-header--photo {
+    min-height: 440px;
+    background-image: url(/PINKprojet/img/photo/back-tablet@1x.png);
+    background-size: cover;
+  }
+  .photo__text {
+    font-size: 50px;
+    line-height: 54px;
+
+    padding-top: 81px;
+  }
+
+  ///main page__photo-look
+
+  .page__photo-look {
+    width: 485px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  ///section  page__photo-users
+  /// blockquote user__photo-panorama
+  .panorama__day-wrapper {
+    top: 58px;
+    right: -150px;
+  }
+
+  .panorama__wrapper {
+    width: 620px;
+    height: 136px;
+  }
+
+  .user__text-like--panorama {
+    position: absolute;
+    padding-left: 470px;
+    margin-top: -80px;
+
+    &::before {
+      left: 578px;
+    }
+  }
+
+  .user__text-like {
+    padding-left: 20px;
+
+    &::before {
+      top: 1px;
+      right: -161px;
+      left: auto;
+    }
+  }
+
+ // .user__text-rock {
+ //   margin: 0;
+ //   padding-top: 42px;
+//
+ //   font-size: 12px;
+ //   color: #d22856;
+ //   text-transform: uppercase;
+ //   background-color: transparent;
+//    cursor: pointer;
+
+//    padding: 0;
+ //   padding-left: 17px;
+ //   padding-top: 43px;
+    
+//    position: relative;
+ //   border: none;
+    
+  
+ //   &::before {
+//      position: absolute;
+//     content: '';
+ //    width: 13px;
+ //    height: 12px;
+ //    top: 44px;
+ //    left: 253px;
+ //    background-image: url(/PINKprojet/img/photo/icon-heart.svg);
+ //    background-repeat: no-repeat;
+ //   }
+ // }
+
+  .user_text-bahcha-rock {
+    margin: 0;
+    padding: 0;
+    padding-left: 17px;
+    padding-top: 43px;
+   
+    &::before {
+     top: 44px;
+     left: 253px;
+    }
+
+  }
+
+
+
+  .user__photo-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .user__photo-item {
+    margin-left: 0;
+    margin-right: 0;
+
+    width: 300px;
+  }
+
+
+  //////
+  /// 
+  .motivation__text {
+  margin-top: 53px;
+  margin-bottom: 77px;
+  font-size: 18px;
+  line-height: 30px;
+  }
+
+
+  /////блок загрузка фото loading phoro setting
+  /// 
+  .loading__photo-setting {
+    display: flex;
+    width: 620px;
+
+    padding-top: 59px;
+    padding-bottom: 57px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .grey-background {
+    background-color: #f2f2f2;
+  }
+
+
+  .photo__loading {
+    width: 300px;
+    height: 400px;
+    margin: 0;
+  }
+
+  .photo__setting-wrapper {
+    width: 264px;
+    margin-left: 48px;
+    border-bottom: none;
+  }
+
+  .edit__mobile-only {
+   display: none;
+  }
+
+  .edit__item-wrapper {
+    display: flex;
+
+    //margin-left: 48px;
+    border-bottom: 1px solid #dddfe0;
+    padding-bottom: 26px;
+    justify-content: space-evenly;
+  }
+
+  .edit__wrapper-range--visible {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #dddfe0;
+  }
+
+  .edit__item-wrapper--bottom {
+    padding-top: 25px;
+  }
+
+  .icon__crop {
+    width: 22px;
+    height: 22px;
+  }
+
+  .icon__fill {
+    width: 22px;
+    height: 22px;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .icon-contrast {
+    width: 16px;
+    height: 16px;
+  }
+
+  .edit__item {
+    width: 202px;
+  }
+
+  .edit__range-one {
+    //margin-top: 12px;
+    //margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .edit__item-range {
+    //margin-left: 85px;
+    //margin-top: -12px;
+    margin: 0;
+    margin-top: 7px;
+  }
+
+  .edit__range-three {
+    margin: 0;
+    margin-top: 6px;
+  }
+
+
+  input {
+    font-size: 14px;
+  }
+
+
+
+
+  //////кнопки
+
+  .edit__button {
+    height: 155px;
+    margin-left: -278px;
+    margin-top: 221px;
+  }
+
+
+  ///footer
+  /// 
+  .footer__container-photo {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-around;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: $desktop-width) {
+///заглавное фото
+  .page-header--photo {
+    min-height: 394px;
+    background-image: url(/PINKprojet/img/photo/back-desktop.png);
+    background-size: cover;
+    background-position-y: 3px;
+  }
+
+ ///текст на фоне
+ /// 
+ .photo__text {
+   width: 353px;
+   padding-left: 38px;
+  }
+
+ ///page__look-photo
+ .page__photo-look {
+   width: 583px;
+ }
+
+ .panorama__day-wrapper {
+  top: 54px;
+  right: -311px;
+ }
+
+ ///panorama__wrapper
+ /// 
+ .panorama__wrapper {
+  width: 940px;
+  height: 108px;
+  
+  margin-bottom: 52px;
+ }
+
+ .panorama__text-name {
+   margin-left: 27px;
+   margin-top: 30px;
+ }
+
+ .user__text-photo--info {
+   margin-left: 27px;
+ }
+
+ .user__text-like--panorama {
+  padding-left: 796px;
+  margin-top: -47px;
+}
+///user__photo-posts
+/// 
+.user__photo-posts {
+  width: 940px;
+}
+
+.user__text-name {
+  margin-left: 27px;
+}
+
+.user__text-like {
+  padding-left: 28px;
+}
+
+.user__text-like--panorama::before {
+  left: 897px;
+}
+
+.user_text-bahcha-rock {
+  padding-left: 27px;
+}
+
+.user_text-bahcha--desktop {
+  padding-left: 27px;
+  padding-top: 15px;
+
+  &::before {
+    top: 16px;
+    left: 265px
+  }
+}
+
+////section page__photo--loading
+/// 
+.grey-background {
+  background-color: rgb(255, 255, 255)
+}
+
+.loading__photo-setting {
+
+  width: 861px;
+  margin: 0;
+  padding-left: 80px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.photo__setting-wrapper {
+  margin-left: 90px;
+  width: 410px;
+}
+
+.icon__crop {
+  width: 44px;
+  height: 44px;
+}
+
+.icon__fill {
+  width: 44px;
+  height: 44px;
+}
+
+.icon-contrast {
+  width: 32px;
+  height: 32px;
+  margin-left: 7px;
+}
+
+.edit__item-wrapper {
+  justify-content: flex-start;
+}
+
+
+.edit__range-one {
+  margin-top: 17px;
+  margin-left: 40px;
+}
+
+.edit__item {
+  width: 290px;
+}
+
+.edit__wrapper-range--visible {
+  justify-content: flex-start;
+}
+
+.edit__item-range {
+  margin-top: 18px;
+  margin-left: 40px;
+}
+
+.edit__range-three {
+  margin-top: 12px;
+  margin-left: 45px;
+}
+
+
+/////button
+/// 
+
+.edit__button {
+  display: flex;
+  flex-wrap: wrap;
+  
+  width: 410px;
+  height: 55px;
+
+  margin-left: -411px;
+  margin-top: 347px;
+}
+
+.photo__button-send {
+  width: 184px;
+  padding-left: 0;
+  padding-right: 0;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 46px;
+}
+
+.photo__button-cancel {
+  width: 184px;
+
+  padding-left: 0;
+  padding-right: 0;
+
+  margin-bottom: 0;
+}
+
+
+////////footer
+/// 
+/// 
+
+.footer__container-photo {
+  margin-bottom: 72px;
+  margin-top: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

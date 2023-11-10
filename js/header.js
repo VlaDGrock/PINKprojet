@@ -1,0 +1,1 @@
+const vox=document.querySelector(".vox")

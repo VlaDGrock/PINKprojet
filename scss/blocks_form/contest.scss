@@ -1,0 +1,1205 @@
+//////СТРАНИЦА 1 МЕНЮ 
+
+input {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Open Sans regular";
+}
+
+body {
+  font-family: "Open Sans regular", "Arial", "Helvetica", "Garuda", sans-serif;
+}
+
+//HEADER////////////////////////////
+
+.contest {
+  min-height: 153px;
+  min-width: 320px;
+  margin: 0 auto;
+
+  //background-image: url(/PINKprojet/img/back-mobile@1x.jpg.jpg);
+  background-position: center 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("/PINKprojet/img/back-mobile@2x.jpg.jpg");
+    background-size: 320px auto;
+  }
+}
+
+.contest__text {
+  display: inline-block;
+  text-align: center;
+
+  padding-top: 32px;
+  padding-right: 38px;
+  padding-left: 48px;
+  //padding-bottom: 37px;
+
+  font-size: 24px;
+  line-height: 30px;
+
+  font-family: "Open Sans light";
+}
+
+// SECTION FORM
+
+.specification__contest {
+  width: 280px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  margin: 0 auto;
+}
+
+.mobile__form-none {
+  display: none;
+}
+
+
+// ФОРМА ВВОДА//////////////////////////////////////////////
+
+.descktop__form-only {
+  display: none;
+}
+
+.specification__contest {
+  color: #000000;
+}
+
+
+.form__name {
+  color: black;
+}
+
+.form__name-info--value {
+  text-transform: uppercase;
+  color: #d22856;
+  font-size: 14px;
+  line-height: 30px;
+
+  margin-left: 20px;
+  margin-bottom: 12px; 
+}
+
+.form__name-info:nth-child(2) {
+  margin-top: 26px;
+}
+
+.form__name-info:nth-child(3) {
+  margin-top: 26px;
+}
+
+
+.form__name-info {
+  display: inline-block; 
+  margin-left: 20px;
+}
+
+.form__name-info:last-child {
+  margin-bottom: 42px;
+}
+
+.form__name-info input[type="text"] {
+  border-color: #e5e5e5;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  width: 280px;
+
+  padding-top: 20px;
+  padding-bottom: 19px;
+  padding-left: 21px;
+  //padding-right: 79px;
+
+  box-sizing: border-box;
+  outline: none;
+
+  &:hover {
+    border-color: #283645;
+  }
+
+  &:focus {
+    border-color: #d22856;
+  }
+}
+
+
+// ЧЕКБОКСЫ////////////////////////////////////////////////////crazy__achievemets
+
+.crazy__achievements {
+  background-color: #f2f2f2;
+  min-height: 602px;
+}
+
+.crazy__achievements-text {
+  text-transform: uppercase;
+
+  color: #d22856;
+
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  padding-top: 42px;
+  padding-bottom: 40px;
+
+  width: 239px;
+  margin: 0 auto;
+}
+
+.crazy__achievements--container {
+    display: flex;
+
+    margin-left: 20px;
+    margin-bottom: 43px;
+
+    cursor: pointer;
+}
+
+.checkbox-indicator {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+
+    border: 2px solid #e5e5e5;
+    border-radius: 2px;
+
+    position: relative;
+
+    &:hover {
+        border-color:#283645;
+    }
+
+    &:active {
+        border-color: #d22856;
+    }
+
+    &:before {
+        content: "\2714";
+        position: absolute;
+        color: #d22856;
+        font-size: 32px;
+
+        left: 5px;
+        top: 3px;
+
+        opacity: 0;
+    }
+
+   
+
+    background-color: #f8f8f8;
+}
+
+.crazy__achievements-input--checkbox:checked + .checkbox-indicator::before {
+    opacity: 1;
+}
+
+.crazy__achievements--container input[type="checkbox"]:focus + .checkbox-indicator {
+   // border-color: #2f60c4;
+    border-color: #000000;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+
+.crazy__achievements-input--checkbox---text {
+ display: inline-block;
+ 
+ color: #283645;
+
+ padding-top: 7px;
+ padding-left: 23px;
+}
+
+.crazy__wrapper {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+// КОНТАКТЫ ЮЗЕРА///////////////////////////////////////
+//why?
+//.contacts__user .form__name-info:first-child {
+//    padding-top: 41px;
+//}
+
+.form__contacts {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+// ФОРМА - РАДИО БАТТОН///////////////
+
+.radio__button-form {
+    background-color: #f2f2f2;
+    min-height: 340px;
+}
+
+.application__question {
+    text-transform: uppercase;
+
+    color: #d22856;
+
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 36px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.radio__button-form--container {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 43px;
+    cursor: pointer;
+}
+
+
+.radbutton-indicator {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+
+
+    position: relative;
+    background-color: #f8f8f8;
+
+    &:hover {
+        border-color:#283645;
+    }
+
+    &:active {
+        border-color: #d22856;
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 15px;
+        height: 15px;
+
+        border-radius: 50% ;
+
+        background-color: #d22856;
+
+        left: 10px;
+        top: 10px;
+
+        opacity: 0;
+    }
+
+    
+}
+
+
+.radio__button-form--input---radio:checked + .radbutton-indicator::before {
+    opacity: 1;
+}
+
+.radio__button-form--container input[type="radio"]:focus + .radbutton-indicator {
+   // border-color: #2f60c4;
+   
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+.form__apps  {
+    border: none;
+}
+
+///////////////////////ОПИШИТЕ СВОИ ЭМОЦИИ
+/// //////////////////////section - emotion
+/// 
+.emotions__wrapper {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.emotions input {
+ height: 197px;
+
+}
+
+.emotions textarea {
+    width: 273px;
+    height: 197px;
+    border-color: #e5e5e5;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Open Sans regular";
+}
+
+
+.emotions .form__name-info--value {
+    margin-top: 40px;
+    padding-left: 23px;
+}
+
+.emotions__wrapper {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/////////////////section - submit__form 
+/// 
+.required__fields {
+    font-size: 16px;
+    color: #d22856;
+}
+
+/////////ОТПРАВИТЬ ФОРМУ 
+
+.send {
+    width: 280px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    //margin-top: 48px;
+    //margin-bottom: 44px;
+
+    border: none;
+    border-radius: 4px;
+
+    color: #f2f2f2;
+    background-color: #2aab6d;
+
+    font-family: "Open Sans light";
+    font-weight: 600;
+
+    &:hover {
+        background-color: #1c9b5e;
+    }
+
+    &:active {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.attention {
+    font-size: 14px;
+    line-height: 30px;
+
+    text-align: center;
+
+    padding-top: 38px;
+    padding-right: 22px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+
+/////////////////////////////////////ФУТЕР
+
+.logo__pink {
+    display: block;
+    margin-left: 86px;
+    margin-right: 87px;
+    margin-top: -9px;
+    margin-bottom: 40px;
+}
+
+
+.logo__html {
+     position:absolute;
+     top: -6px;
+     left: 197px;
+}
+
+.three__logo {
+    margin-left: 70px;
+    margin-bottom: 33px;
+}
+
+.logo__circle-twitter {
+    margin-right: 8px;
+}
+
+.logo__circle-facebook {
+    margin-right: 8px;
+}
+
+.footer__text-form {
+    font-size: 14px;
+    line-height: 18px;
+
+    margin-left: 95px;
+    margin-bottom: 50px;
+
+
+    color: #000000;
+}
+
+.footer__html {
+    position: relative;
+}
+
+///////////////////////footer
+.footer__form-link--mobile {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.logo-pink-blue--mobile---form {
+  margin: 0 auto;
+}
+
+.social__item {
+    width: 46px;
+    height: 46px;
+    border: 3px solid #e9ebec;
+    border-radius: 50%;
+}
+
+.social__link {
+    fill: #d22856;
+}
+
+.three__logo--index---form {
+    display: flex;
+    width: 181px;
+    justify-content: space-between;
+
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.social__link--twitter {
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.social__link--facebook {
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.social__link--youtube {
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+.footer__html-developed--index---form {
+    display: flex;
+}
+
+.htmlacademy-form {
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    color: #000000;
+}
+
+///////////////////////////////////////////////////почему-то нужно дублировать правила стилей из мейн нав и пейдж футер
+.social__item {
+ &:hover {
+    border-color: #3d4a57;
+  }
+
+ &:active {
+    opacity: 0.3;
+  }
+}
+
+.htmlacademy__link--form {
+    margin-left: 14px;
+    fill: #d22856;
+
+    &:hover {
+        fill: #000000;
+    }
+
+    &:active {
+        opacity: 0.3;
+    }
+}
+
+.logo-pink-blue {
+    &:hover {
+        fill: #d22856; 
+    }
+    &:active {
+        fill-opacity: 0.3;
+    }
+}
+
+.logo-pink-blue--desktop---form {
+    display: none;
+}
+
+
+
+
+
+@media (min-width: $tablet-width) {
+    //////////////////////PAGE-HEADER
+    .contest {
+        min-width: 620px;
+        min-height: 334px;
+    }
+
+    .contest__text {
+        width: 620px;
+        padding-top: 68px;
+        font-size: 50px;
+        line-height: 57px;
+
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        //width: 500px;
+        
+       // padding-left: 97px;
+       // padding-right: 91px;
+    }
+    
+    //////////main-nav
+    .site-list a {
+        padding-bottom: 25px;
+    }
+
+  //////////////////////////////////////////////////////SPEcification contest
+  
+  .specification__contest {
+    font-size: 18px;
+    width: 500px;
+    padding-top: 101px;
+    padding-bottom: 76px;
+  }
+
+  .mobile__form-none {
+    display: block;
+  }
+
+
+  //////////////////// main-form
+  /// 
+ .main-form {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .crazy__achievements {
+    order: 5;
+ }
+
+ .contacts__user {
+    order: 4;
+ }
+
+ .radio__button-form {
+    order: 3;
+ }
+
+ .emotions {
+    order: 6;
+ }
+
+ .send {
+    order: 7;
+ }
+
+ .attention {
+    order: 8;
+ }
+
+ .application__question {
+  margin: 0 auto;
+ }
+
+ .form__apps {
+    border: 2px solid #e5e5e5;
+ }
+
+ .radio {
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+
+ ///////////FORM - CLASS: FORM__NAME-TEXT
+  .form__name-text {
+        display: flex;
+        flex-direction: column;
+        width: 620px;
+        margin: 0 auto;
+   }
+
+  .form__name-info {
+     display: flex;
+     margin-left: 0px;
+     align-items: center;
+
+     &:nth-child(1) {
+        padding-bottom: 23px;
+     }
+     &:nth-child(2) {
+        padding-bottom: 23px;
+     }
+  }
+
+  .form__name-info--value {
+    margin-left: 0px;
+    margin-bottom: 12px;
+
+    margin-bottom: 6px;
+    margin-right: 20px;
+  }
+
+  .input__name {
+    flex-grow: 1;
+  }
+
+  //////////////section radio__button-form
+  .radio__button-form {
+    background-color: white;
+  }
+
+  .radbutton-indicator {
+    background-color: white;
+  }
+
+  .form__apps {
+    //border: ;
+  }
+
+  ///////////section - contacts__user
+  .form__contacts {
+    border: 2px solid #e5e5e5;
+    max-height: 354px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /// 
+  .form__name-info--reorder {
+    flex-direction: column;
+  }
+
+  .form__name-info--value--reorder {
+    order: 2;
+  }
+
+  .mail {
+    margin-left: -359px;
+  }
+
+  .phone {
+    margin-left: -330px;
+  }
+
+  .form__name-info input[type="text"] {
+    width: 498px;
+    height: 60px;
+    border-radius: 2px;
+  }
+
+  .input__image-phone {
+    background-image: url(/PINKprojet/img/form/form__tablet/phone_input_tablet.png);
+    background-repeat: no-repeat;
+    background-position: 435px 0;
+    background-size: 60px 60px;
+  }
+
+  .input__image-mail {
+    background-image: url(/PINKprojet/img/form/form__tablet/mail_input_tablet.png);
+    background-repeat: no-repeat;
+    background-position: 435px 0;
+    background-size: 60px 60px;
+  }
+
+  .contacts__question {
+    text-transform: uppercase;
+    color: #d22856;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 0 auto;
+  }
+
+ ////////////////////section - crazy__achievements
+  .crazy__achievements {
+    background-color: #ffffff;
+  }
+
+  .crazy__achievements-text {
+    width: 407px;
+  }
+
+  .crazy__wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border: 2px solid #e5e5e5;
+  }
+
+  .checkbox-indicator {
+    background-color: #ffffff;
+  }
+
+  .crazy__achievements--container {
+    margin-left: 48px;
+  }
+
+  /////////////////////////////emotions
+  /// 
+  .emotions__introduction {
+    text-transform: uppercase;
+    color: #d22856;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  .emotions__wrapper {
+    height: 379px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border: 2px solid #e5e5e5;
+  }
+
+  .emotions textarea {
+    width: 496px;
+  }
+
+  .emotions__text {
+    margin: 0 auto;
+  }
+
+  .review__text {
+    padding: 21px;
+    padding-right: 0px;
+  }
+
+  .send {
+    padding-top: 19px;
+    margin-left: 20px;
+    margin-top: 67px;
+    height: 65px;
+    padding-right: 9px;
+  }
+
+  .required__fields {
+    font-size: 16px;
+    color: #d22856;
+  }
+
+  /////////submit__form
+  /// 
+  /// 
+  .submit__form {
+    display: flex;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    padding-bottom: 82px;
+
+    order: 8;
+  }
+
+    .send {
+        order: 1;
+    }
+
+    .attention {
+        order: 2;
+        padding-right: 20px;
+        padding-left: 140px;
+        
+        padding-top: 77px;
+        padding-bottom: 0;
+    }
+
+    .required__fields {
+        font-size: 16px;
+        color: #d22856;
+    }
+    
+ //}
+
+
+
+ /////////////////////////////////////////////////////////FOOTER
+    .footer__container {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 40px;
+
+    }
+
+    .three__logo--index---form {
+        display: flex;
+        width: 181px;
+        justify-content: space-between;
+
+        padding-bottom: 0px;
+        margin: 0;
+    }
+
+    .logo-pink-blue--mobile---form {
+        padding-bottom: 0;
+    }
+
+    .footer__form-link--mobile {
+        display: block;
+    }
+
+    .htmlacademy-form {
+        margin-bottom: 0px;
+    }
+
+    .footer__form-link--mobile {
+        margin-bottom: 0px;
+    }
+}
+
+   
+
+
+
+
+@media (min-width: $desktop-width) {
+    .logo-pink-blue--mobile---form {
+        display: none;
+    }
+    
+    .logo-pink-blue--desktop---form {
+        display: block;
+    }
+
+    .page-header {
+        height: 396px;
+        background: url(/PINKprojet/img/back-desktop.jpg.jpg) center 1px/cover no-repeat;
+    }
+
+    ////////main class - main__form
+    /// 
+    /// 
+    /// new 20-01
+    .form__wrapper {
+        width: 940px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+    /// 
+    /// 
+    /// 
+    /// 
+    /// 
+    /// 
+    /// 
+    /// 
+    .main-form {
+        
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+
+
+    ///////section - form__name
+    /// 
+    /// 
+    .specification__contest {
+        width: 770px;
+    }
+
+    .descktop__form-only {
+        display: inline-block;
+    }
+
+    .mobile__form-none {
+        display: none;
+    }
+
+    .input__name {
+        flex-grow: 0;
+       // width: 336px;
+    }
+
+    .form__name-text {
+        width: 434px;
+    }
+
+
+    .form__name {
+
+        //margin-left: 130px;
+        //margin-right: 70px;
+        //new
+        margin-right: 74px;
+    }
+
+
+    .form__name-info:nth-child(1) {
+        padding-top: 15px;
+    }
+
+  
+
+    //////////////section - radio__button-form
+    /// 
+    /// 
+    /// 
+    /// new
+    .radio__button-form {
+     //new//margin-right: 130px;
+    }
+
+    .radio {
+      width: 401px;
+      height: 272px;
+      margin-bottom: 50px;
+
+      margin-left: 0;
+     margin-right: 0;
+    }
+
+
+    .application__question {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .radio__button-first {
+        margin-top: 30px;
+    }
+
+  .radio__button-form--container {
+     margin-left: 75px;
+   }
+    
+    
+    //////section - contest
+    .contest__text {
+      width: 767px;
+    }
+
+    ////////section - contact__user
+    /// 
+    /// 
+    .contacts__user {
+        margin: 0 auto;
+    }
+
+    .form__contacts {
+        width: 940px;
+        margin-left: 0;
+       margin-right: 10px;
+    }
+
+    .contacts__question {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .contacts__user-wrapper {
+        display: flex;
+      }
+
+      .form__name-info input[type="text"] {
+        width: 370px;
+    }
+
+    .form__name-info input[name="number"] {
+        margin-left: 58px;
+        margin-top: 27px;
+        margin-right: 83px;
+    }
+
+    .phone {
+        margin-left: -204px;
+        margin-top: 12px;
+    }
+
+   // .form__name-info input[name="mail address"] {
+   //     margin-bottom: 0;
+   // }
+
+   .form__name-info:last-child {
+    margin-bottom: 0;
+  }
+
+  .form__name-info.form__name-info--reorder.form__name-info--reorder-mail {
+    margin-top: 42px;
+    margin-right: 60px;
+  }
+
+  .mail {
+    margin-left: -216px;
+    margin-top: 10px;
+  }
+
+  .input__image-mail {
+    background-position: 307px 0;
+  }
+
+  //////////section - crazy__achievements
+  /// 
+  /// 
+  /// 
+  
+  .crazy__achievements {
+    margin-top: 61px;
+    min-height: 226px;
+  }
+
+  .crazy__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 940px;
+    height: 226px;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .crazy__achievements--container {
+    height: 40px;
+    margin-top: 41px;
+  }
+
+  .crazy__achievements-input--checkbox---tex {
+    height: 30px
+  }
+
+  .crazy__achievements-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .desktop__suvenirs {
+    margin-top: 0;
+  }
+
+  .desktop__tower {
+    margin-top: 0;
+    margin-left: 75px;
+  }
+
+  .desktop__hotel {
+    margin-top: 0;
+    margin-left: 65px;
+  }
+
+  //////section -- emotions
+  /// 
+  /// 
+  /// 
+  /// 
+  .emotions__wrapper {
+    width: 940px;
+    height: 217px;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    //margin-top: 50px;
+  }
+
+  .emotions__introduction {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .emotions {
+    margin-top: 50px;
+  }
+
+  .emotions textarea {
+    width: 820px;
+    margin-top: 19px;
+    height: 78px;
+  }
+
+  //////section -submit__form
+  /// 
+  /// 
+  /// 
+  .submit__form {
+    justify-content: space-between;
+    width: 940px;
+  }
+
+  .send {
+    margin-left: 0;
+  }
+
+  .attention {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  ///////////footer
+  /// 
+  /// 
+  .footer__container {
+    justify-content: space-between;
+
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  
+   
+  
+
+}
+

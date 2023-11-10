@@ -1,0 +1,269 @@
+.grey__ramka-tariffs--mobile {
+    background: url(/PINKprojet/img/Shape2.png) center -1px/cover no-repeat;
+    height: 460px;
+    z-index: 1;
+    position: relative;
+    
+}
+
+
+td {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.mobile-table-non {
+    display: none;
+}
+
+
+.tariffs__table {
+    width: 839px;
+}
+
+
+.tariffs__position {
+    text-align: start;
+    padding-left: 19px
+}
+//.tariffs {
+//    text-transform: uppercase;
+//    line-height: 30px;
+//    padding-top: 85px;
+//    padding-bottom: 45px;
+//    text-align: center;
+//    overflow: hidden;
+
+//    border-collapse: collapse;
+//}
+
+.tariffs {
+    overflow: hidden;
+    height: 460px;
+}
+
+.tariffs__wrapper {
+    position: relative;
+}
+
+
+.tariffs__possibilities-yes::before {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 26px;
+   // top: 17px;
+   // right: 20px;
+    margin-top: 0px;
+    margin-left: 195px;
+    background-image: url(/PINKprojet/img/svg/icon-yes.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tariffs__possibilities-no::before {
+    content: '';
+    position: absolute;
+    width: 27px;
+    height: 31px;
+   // top: 17px;
+   // right: 20px;
+   margin-top: 0px;
+   margin-left: 195px;
+    background-image: url(/PINKprojet/img/svg/icon-no.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.tariffs__table {
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-top: 85px;
+    padding-bottom: 45px;
+    text-align: center;
+    overflow: hidden;
+    //31.08.23
+    border-collapse: collapse;
+    margin-top: 90px;
+}
+
+.mobile-non-table {
+    border: none;
+}
+
+.tariffs__table td {
+    width: 272px;
+    height: 60px;
+}
+
+.backcolor td {
+    border: 2px solid rgb(238, 238, 238);
+}
+
+.tariffs__item {
+    background-color: #283645;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    height: 90px;
+
+    border-right: 2px solid;
+    border-radius: 3px;
+}
+
+.tariffs__price {
+    display: block;
+}
+
+.backcolor {
+    background-color: white;
+}
+
+//tr {
+//    background-color: white;
+//}
+
+.mobile-non-table {
+    display: none;
+}
+
+.rates__toggles.slider__toggles {
+    display: none;
+}
+
+.reviews__toggles.slider__toggles.slider__tariffs {
+    bottom: -47px;
+    z-index: 3;
+}
+
+@media (min-width: $tablet-width) {
+
+    .grey__ramka-tariffs--mobile {
+        height: 412px;
+    }
+
+    .mobile-only {
+        display: none; 
+    }
+
+    td {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+    .tariffs {
+        height: 411px;
+    }
+
+    .tariffs__table {
+        width: 620px;
+        margin: 0 auto;
+        margin-top: 106px;
+    }
+
+    .tariffs__table td {
+        width: 155px;
+        height: 45px;
+      }
+
+    .grey__ramka-tariffs--mobile {
+        background: url(/PINKprojet/img/Shape-2-1200-objh-1x.png) center -4px/cover no-repeat;
+    }
+
+    .mobile-non-table {
+        display: table-cell;
+    }
+
+    .mobile-table-non {
+        display: table-cell;
+    }
+
+    .tariffs__possibilities-yes::before {
+        margin-top: -14px;
+        margin-left: 44px;
+    }
+    
+    .tariffs__possibilities-no::before {
+        margin-top: -14px;
+        margin-left: 44px;
+
+    }
+
+    .reviews__toggles.slider__toggles.slider__tariffs {
+        display: none;
+    }
+    
+}
+
+@media (min-width: $desktop-width) {
+
+    .grey__ramka-tariffs--mobile {
+        height: 567px;
+    }
+
+    td {
+        font-size: 18px;
+    }
+
+    .tariffs__table {
+        width: 940px;
+        height: 279px;
+        margin: 0 auto;
+        margin-top: 177px;
+        margin-bottom: 95px;
+    }
+
+    .tariffs {
+        
+        height: 556.4px;
+        
+    }
+
+    .tariffs__table td {
+        width: 155px;
+        height: 58px;
+   }
+
+
+      .rates__toggles {
+        display: none;
+    }
+
+    .tariffs__price {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .tariffs__item {
+        height: 98px;
+    }
+
+    .tariffs__possibilities-yes::before {
+        content: '';
+        position: absolute;
+        width: 31px;
+        height: 26px;
+       // top: 17px;
+       // right: 20px;
+      //  margin-top: -14px;
+      //  margin-left: -12px;
+        margin-top: -14px;
+        margin-left: 44px;
+        background-image: url(/PINKprojet/img/svg/icon-yes.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .tariffs__possibilities-no::before {
+        margin-left: 80px;
+    }
+
+    .tariffs__possibilities-yes::before {
+        margin-left: 80px;
+    }
+}

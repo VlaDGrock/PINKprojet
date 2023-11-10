@@ -1,0 +1,262 @@
+.reviews__wrapper {
+    position: relative;
+    //max-width: 320px;
+    width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+
+}
+
+
+.reviews__list {
+    display: flex;
+    //background-color: white;
+    //transition: all 1s;
+    min-height: 354px;
+    //max-width: 320px;
+    width: 320px;
+}
+
+.reviews__item {
+    //display: flex;
+    //display: inline-block;
+    //flex-wrap: wrap;
+    //justify-content: center;
+    text-align: center;
+    //min-width: 280px;
+    width: 280px;
+    max-height: 354px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.reviews__author-name {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 31px;
+    //height: 35px;
+    justify-content: center;
+    //display: inline-block;
+}
+
+
+.reviews__toggles {
+    display: flex;
+    column-gap: 20px;
+
+    position: absolute;
+    align-items: center;
+
+    bottom: 46px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.reviews__text { 
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.reviews__dot {
+    width: 6px;
+    height: 6px;
+
+    cursor:pointer;
+
+    border-radius: 6px;
+    background-color: #bec2c7;
+
+    &:hover {
+        background-color: #7e868f;
+    }
+    &:active {
+        background-color: #e9ebec;
+    }
+}
+
+.reviews__dot-blocked {
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #bec2c7;
+}
+
+.reviews__author-name {
+    font-weight: bold;
+}
+
+.review__span {
+    display: none;
+}
+
+.active-dot {
+    background-color: #ffffff;
+    border: 3px solid #283645;
+    &:hover {
+        background-color: #ffffff;
+    }
+}
+
+.slider__btn-prev, .slider__btn-next {
+    display: none;
+}
+
+
+
+
+
+@media (min-width: $tablet-width) {
+
+    .review {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .reviews__wrapper {
+        //max-width: 620px;
+        width: 620px;
+    }
+
+    .reviews__list {
+        //max-width: 620px;
+        width: 620px;
+    }
+
+    .reviews__item {
+        display: flex;
+        flex-direction: column;
+        //max-width: 620px;
+        width: 620px;
+        margin: 0;
+    }
+
+    .reviews__text {
+        font-size: 18px;
+    }
+
+    .review__span {
+        display: block;
+        font-weight: normal;
+    }
+    
+    .reviews__author-name {
+        font-size: 20px;
+        order: 2;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: $desktop-width) {
+//доб
+    .reviews__wrapper {
+        width: 650px;
+        background-image: url(/PINKprojet/img/desktop/icon-quotes.svg);
+        background-repeat: no-repeat;
+        background-position: 285.5px 72px;
+    }
+
+    .reviews {
+        position: relative;
+    }
+
+    .reviews__toggles {
+        display: none;
+
+    }
+
+    .slider__btn-prev {
+        display: block;
+
+        position: absolute;
+        left: 11%;
+        top: 50%;
+        background-color: transparent;
+        border: none;
+        //opacity: 0.3;
+        cursor: pointer;
+
+    }
+
+    .slider__btn-next {
+        display: block;
+
+        position: absolute;
+        right: 11%;
+        top: 50%;
+        background-color: transparent;
+        border: none;
+        opacity: 0.3;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:active {
+            opacity: 0.1;
+        }
+    }
+    
+    .slider__btn-prev {
+      //  display: block;
+
+       // position: absolute;
+       // top: 50%;
+       // background-color: transparent;
+      //  border: none;
+      //  opacity: 0.3;
+      //  cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:active {
+            opacity: 0.1;
+        }
+    }
+
+    .reviews__item {
+        padding-top: 190px;
+//доб
+        margin: 0;
+        width: 650px;
+    }
+
+    .reviews__author-name {
+        font-size: 24px;
+    }
+
+    .review__span {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+   // .fill {
+   //     &:hover {
+  //          //fill: red;
+  //          fill-opacity: 1;
+  //      }
+  //      &:active {
+  //          fill-opacity: 0.1;
+  //      }
+ //   }
+
+ .down-desktop path {
+    &:hover {
+      //  fill:#1364b6;
+        //fill-opacity: 1;
+        
+    }
+    
+    &:active {
+     //fill-opacity: 0.1;
+    }
+
+ }
+}
