@@ -4,3 +4,7 @@
 Javascript:
 - слайдер в desktop версии сайта,
 - открытие/закрытие меню навигации сайта на mobile и tablet версиях сайта
+
+
+# [Кликайте, по ссылке - Pink](https://vladgrock.github.io/PINKprojet/)
+
